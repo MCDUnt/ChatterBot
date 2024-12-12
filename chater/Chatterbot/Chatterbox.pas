@@ -1,7 +1,8 @@
-program Chatterbox;
-{$codepage utf8}
-uses Menu;
-begin
-  menu_principal;
-end.
 
+Program Chatterbox;
+{$codepage utf8}
+
+Uses Menu;
+Begin
+  menu_principal;
+End.

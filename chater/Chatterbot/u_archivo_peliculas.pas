@@ -1,41 +1,32 @@
-UNIT u_archivo_peliculas;
+
+Unit u_archivo_peliculas;
 {$CODEPAGE UTF8}
-INTERFACE
-CONST
-RUTA= 'C:\Archivos\PELICULAS.DAT';
-TYPE
 
-T_DATO = record
-         Titulo:string[20];
-         Genero:string[20];
-         Anualidad:string[20];
-         Productora:string[20];
-         Actor_principal:string[20];
-         end;
+Interface
 
-T_ARCHIVO = FILE OF T_DATO;
+Uses entidad;
 
-VAR arch:T_archivo;
+Var arch: T_archivo;
 
-PROCEDURE CREAR(VAR ARCH:T_ARCHIVO);
-PROCEDURE ABRIR(VAR ARCH:T_ARCHIVO);
-PROCEDURE CERRAR(VAR ARCH:T_ARCHIVO);
+Procedure CREAR(Var ARCH:T_ARCHIVO);
+Procedure ABRIR(Var ARCH:T_ARCHIVO);
+Procedure CERRAR(Var ARCH:T_ARCHIVO);
 
-IMPLEMENTATION
+Implementation
 
-    PROCEDURE CREAR(VAR ARCH:T_ARCHIVO);
-    BEGIN
-        ASSIGN(ARCH,RUTA);
-        REWRITE(ARCH);
-    END;
-    PROCEDURE ABRIR(VAR ARCH:T_ARCHIVO);
-    BEGIN
-        ASSIGN(ARCH,RUTA);
-        RESET(ARCH);
-    END;
+Procedure CREAR(Var ARCH:T_ARCHIVO);
+Begin
+  ASSIGN(ARCH,RUTA);
+  REWRITE(ARCH);
+End;
+Procedure ABRIR(Var ARCH:T_ARCHIVO);
+Begin
+  ASSIGN(ARCH,RUTA);
+  RESET(ARCH);
+End;
 
-    PROCEDURE CERRAR(VAR ARCH:T_ARCHIVO);
-    BEGIN
-        CLOSE(ARCH);
-    END;
-end.
+Procedure CERRAR(Var ARCH:T_ARCHIVO);
+Begin
+  CLOSE(ARCH);
+End;
+End.
