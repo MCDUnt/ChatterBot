@@ -1,0 +1,18 @@
+* Genero
+Cualquiera de los generos es palabra clave.
+
+* Epoca o Año
+Un año concreto (2010, 1980s, años 90)
+clasicos (antiguas)
+recientes (ultimas)
+decada (de los 70, 2000s)
+
+* Actor/Actriz
+Directamente el nombre
+"peliculas con.." o "peliculas de.."
+"me gusta.." o "soy fan de.."
+
+* Director
+Directamente el nombre
+"peliculas dirigidas por.."
+
