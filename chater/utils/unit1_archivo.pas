@@ -41,4 +41,19 @@ Begin
   actor := partes[4];
   anio := partes[5];
 End;
+
+Procedure BuscarEnArchivo(Var f: TextFile; claves: String);
+
+Var 
+  linea, titulo, autor, genero, actor, anio: string;
+  enc: Boolean;
+Begin
+  While (Not Eof(f)) And (Not enc) Do
+    Begin
+      ReadLn(f, linea);
+      ObtenerDatos(linea, titulo, autor, genero, actor, anio);
+      If titulo = clave Then
+        enc := true;
+    End;
+End;
 End.
