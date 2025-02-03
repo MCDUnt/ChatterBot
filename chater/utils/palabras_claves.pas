@@ -28,144 +28,94 @@ Const
                                        'hasta mañana', 'chao', 'chau');
 
   saludo: array[1..10] Of string = (
-
-
-                 'bienvenido a nuestro servicio de recomendaciones de peliculas'
+                 'Bienvenido a nuestro servicio de recomendaciones de peliculas'
                                     ,
-
-
-                     'estoy aqui para ayudarte a encontrar la pelicula perfecta'
+                     'Estoy aqui para ayudarte a encontrar la pelicula perfecta'
+                                    ,'Listo para descubrir nuevas peliculas?',
+                      'Te ayudare a encontrar la pelicula ideal para esta noche'
                                     ,
-                                    'listo para descubrir nuevas peliculas?'
+                                    'Vamos a explorar el mundo del cine juntos?'
+                                    ,'Preparado para una maraton de peliculas?',
+                                   'Dime tus preferencias y te recomendare algo'
                                     ,
-
-
-                      'te ayudare a encontrar la pelicula ideal para esta noche'
+                           'Empezamos con algunas recomendaciones de peliculas?'
                                     ,
-                                    'vamos a explorar el mundo del cine juntos?'
+                                   'Encantado de ayudarte a elegir una pelicula'
                                     ,
-                                    'preparado para una maraton de peliculas?',
-
-
-                                   'dime tus preferencias y te recomendare algo'
-                                    ,
-
-
-                           'empezamos con algunas recomendaciones de peliculas?'
-                                    ,
-
-
-                                   'encantado de ayudarte a elegir una pelicula'
-                                    ,
-
-
-                            'listo para descubrir tu proxima pelicula favorita?'
+                            'Listo para descubrir tu proxima pelicula favorita?'
                                    );
 
-  resp_positivas: array[1..10] Of string = ('genial, encontre lo que buscabas',
-
-
-                                          'perfecto, aqui tienes lo que pediste'
+  resp_positivas: array[1..10] Of string = ('Genial, encontre lo que buscabas',
+                                          'Perfecto, aqui tienes lo que pediste'
                                             ,
-
-
-                                     'excelente, esto es justo lo que necesitas'
+                                     'Excelente, esto es justo lo que necesitas'
                                             ,
-
-
-                                       'fantastico, encontre una opcion para ti'
+                                       'Fantastico, encontre una opcion para ti'
                                             ,
-
-
-                                  'maravilloso, esto es lo que estabas buscando'
+                                  'Maravilloso, esto es lo que estabas buscando'
+                                            ,'Increible, aqui esta tu resultado'
                                             ,
-                                            'increible, aqui esta tu resultado',
-                                            'estupendo, encontre lo que querias'
-                                            , 'super, esto es lo que necesitas',
-
-
-                                           'magnifico, aqui tienes tu resultado'
-                                            , 'bravo, encontre lo que pediste');
+                                            'Estupendo, encontre lo que querias'
+                                            , 'Super, esto es lo que necesitas',
+                                           'Magnifico, aqui tienes tu resultado'
+                                            , 'Bravo, encontre lo que pediste');
 
   resp_negativas: array[1..10] Of string = (
-
-
-                                          'lo siento, no encontre coincidencias'
+                                          'Lo siento, no encontre coincidencias'
                                             ,
-
-
-                            'lamentablemente, no pude encontrar lo que buscabas'
+                            'Lamentablemente, no pude encontrar lo que buscabas'
                                             ,
-
-
-                               'no hay resultados que coincidan con tu busqueda'
+                               'No hay resultados que coincidan con tu busqueda'
                                             ,
-
-
-                   'no encontre ninguna opcion que se ajuste a tus preferencias'
+                   'No encontre ninguna opcion que se ajuste a tus preferencias'
                                             ,
-
-
-                        'lo siento, no pude encontrar una pelicula que coincida'
+                        'Lo siento, no pude encontrar una pelicula que coincida'
                                             , 'no hay coincidencias disponibles'
                                             ,
-
-
-                                      'no encontre resultados para tu solicitud'
+                                      'No encontre resultados para tu solicitud'
                                             ,
-
-
-                                  'lamentablemente, no hay opciones disponibles'
+                                  'Lamentablemente, no hay opciones disponibles'
                                             ,
-
-
-                  'no pude encontrar una pelicula que se ajuste a lo que buscas'
+                  'No pude encontrar una pelicula que se ajuste a lo que buscas'
                                             ,
+                               'Lo siento, no hay coincidencias en este momento'
+                                           );
 
-
-                               'lo siento, no hay coincidencias en este momento'
+  resp_neg_final: array[1..10] Of string = ('pero puedo recomendarte esto',
+                                            '¿que te parece ver esta otra?',
+                                       'pero tengo una excelente opcion para ti'
+                                            ,
+                                          'pero tengo algo que te podria gustar'
+                                            , 'pero puedo sugerirte esta',
+                                            'pero aqui va una recomendacion',
+                                           'pero seguro disfrutaras esta opcion'
+                                            ,
+                                            'pero puedo ofrecerte algo similar',
+                                 'pero tengo una recomendacion que te encantara'
+                                            ,
+                               'pero que tal esta otra que tambien es excelente'
                                            );
 
   resp_ingreso_neg: array[1..10] Of string = (
-
-
-                                        'parece que hubo un error en tu mensaje'
+                                        'Parece que hubo un error en tu mensaje'
                                               ,
-
-
-                                       'lo siento, no entendi lo que ingresaste'
+                                       'Lo siento, no entendi lo que ingresaste'
                                               ,
-
-
-                           'por favor, verifica tu mensaje e intenta nuevamente'
+                           'Por favor, verifica tu mensaje e intenta nuevamente'
                                               ,
-
-
-                               'no pude procesar tu solicitud, intenta de nuevo'
+                               'No pude procesar tu solicitud, intenta de nuevo'
                                               ,
-
-
-                'parece que hubo un problema con tu mensaje, por favor revisalo'
+                'Parece que hubo un problema con tu mensaje, por favor revisalo'
                                               ,
-
-
-                          'no reconozco ese mensaje, intenta con algo diferente'
+                          'No reconozco ese mensaje, intenta con algo diferente'
                                               ,
-
-
-                                   'hubo un error, por favor intenta nuevamente'
+                                   'Hubo un error, por favor intenta nuevamente'
                                               ,
-
-
-                               'no pude entender tu solicitud, intenta de nuevo'
+                               'No pude entender tu solicitud, intenta de nuevo'
                                               ,
-
-
-                     'parece que ingresaste algo incorrecto, por favor revisalo'
+                     'Parece que ingresaste algo incorrecto, por favor revisalo'
                                               ,
-
-
-                                       'lo siento, no pude procesar ese mensaje'
+                                       'Lo siento, no pude procesar ese mensaje'
                                              );
 
   saludosAdios: array[1..10] Of string = ('Adios', 'Hasta luego', 'Nos vemos',
