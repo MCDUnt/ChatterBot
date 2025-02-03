@@ -20,6 +20,14 @@ Const
 
   director: array[1..2] Of string = ('dirigidas por', 'dirigida por');
 
+  despedida: array[1..5] Of string = ('adios', 'chau', 'nos vemos', 'salir',
+                                      'exit');
+
+  saludosAdios: array[1..10] Of string = ('Adios', 'Hasta luego', 'Nos vemos',
+                                          'Cuidate', 'Chao', 'Hasta pronto',
+                                          'Que estes bien', 'Hasta la proxima'
+                                          , 'Bye', 'Saludos');
+
 
 Implementation
 
