@@ -4,7 +4,7 @@ Unit menu;
 
 Interface
 
-{$unitpath ./utils/}
+{$unitpath ../utils/}
 
 Uses crt, validadores, unit2_chat;
 
@@ -22,7 +22,7 @@ Begin
   clrscr;
   WriteLn;
   textcolor(green);
-  WriteLn('Hola, soy el bot del grupo 4 utilizado para recomendar peliculas.');
+  SaludosInicio();
   WriteLn;
   textcolor(white);
   ReadLn(respuesta);
