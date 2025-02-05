@@ -28,21 +28,21 @@ Const
                                        'hasta mañana', 'chao', 'chau');
 
   saludo: array[1..10] Of string = (
-                 'Bienvenido a nuestro servicio de recomendaciones de peliculas'
+                 'bienvenido a nuestro servicio de recomendaciones de peliculas'
                                     ,
-                     'Estoy aqui para ayudarte a encontrar la pelicula perfecta'
-                                    ,'Listo para descubrir nuevas peliculas?',
-                      'Te ayudare a encontrar la pelicula ideal para esta noche'
+                     'estoy aqui para ayudarte a encontrar la pelicula perfecta'
+                                    ,'listo para descubrir nuevas peliculas?',
+                      'te ayudare a encontrar la pelicula ideal para esta noche'
                                     ,
-                                    'Vamos a explorar el mundo del cine juntos?'
-                                    ,'Preparado para una maraton de peliculas?',
-                                   'Dime tus preferencias y te recomendare algo'
+                                    'vamos a explorar el mundo del cine juntos?'
+                                    ,'preparado para una maraton de peliculas?',
+                                   'dime tus preferencias y te recomendare algo'
                                     ,
-                           'Empezamos con algunas recomendaciones de peliculas?'
+                           'empezamos con algunas recomendaciones de peliculas?'
                                     ,
-                                   'Encantado de ayudarte a elegir una pelicula'
+                                   'encantado de ayudarte a elegir una pelicula'
                                     ,
-                            'Listo para descubrir tu proxima pelicula favorita?'
+                            'listo para descubrir tu proxima pelicula favorita?'
                                    );
 
   resp_positivas: array[1..10] Of string = ('Genial, encontre lo que buscabas',
@@ -89,8 +89,8 @@ Const
                                             , 'pero puedo sugerirte esta',
                                             'pero aqui va una recomendacion',
                                            'pero seguro disfrutaras esta opcion'
+                                            ,'pero puedo ofrecerte algo similar'
                                             ,
-                                            'pero puedo ofrecerte algo similar',
                                  'pero tengo una recomendacion que te encantara'
                                             ,
                                'pero que tal esta otra que tambien es excelente'
