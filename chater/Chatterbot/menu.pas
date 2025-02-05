@@ -46,16 +46,12 @@ Begin
                 If (enc) Then
                   Begin
                     RespPositiva();
+                    WriteLn;
                     textcolor(blue);
-                    WriteLn(peli);
+                    WriteLn(' " ',peli,' "');
                   End
                 Else
-                  Begin
-                    RespNegativa();
-                    // RespNegativaFinal();
-                    // textcolor(yellow);
-                    // writeln(peli);
-                  End;
+                  RespNegativa();
               End;
           End;
       End;

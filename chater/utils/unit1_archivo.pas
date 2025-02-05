@@ -112,12 +112,13 @@ Var flag: Boolean;
   coma: Integer;
 Begin
   enc := false;
+  pel := '';
   reset(f);
   While Not (Eof(f)) And (Not enc) Do
     Begin
       ReadLn(f, linea);
       ObtenerDatos(linea, titulo, autor, genero, actor, anio);
-      If (length(gen) > 0) And (gen = genero) Then
+      If (length(gen) > 0) And (pos(gen, genero) > 0) Then
         Begin
           enc := True;
           pel := linea;
@@ -143,7 +144,7 @@ Begin
                         enc := true;
                       End;
              End
-      Else If (length(direc) > 0) And (direc = autor) Then
+      Else If (length(direc) > 0) And (direc = (lowercase(autor))) Then
              Begin
                enc := True;
                pel := linea;
@@ -163,6 +164,10 @@ Procedure obtenerPalabrasClave(Var f: TextFile; cadena: String; Var pelicula:
 Var 
   gen, actor, direc, anio: string;
 Begin
+  gen := '';
+  actor := '';
+  direc := '';
+  anio := '';
   If ContieneGenero(cadena) Then
     BuscarGenero(cadena, gen);
   If ContieneDirector(cadena) Then
