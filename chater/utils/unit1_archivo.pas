@@ -47,10 +47,12 @@ Procedure BuscarEnArchivo(Var f: TextFile; cadena,clave: String; Var resp:
 
 Var 
   linea, titulo, autor, genero, actor, actor1, actor2, anio: string;
+  coma: integer;
   enc: Boolean;
 Begin
   enc := false;
   reset(f);
+  resp := '';
   While (Not Eof(f)) And (Not enc) Do
     Begin
       ReadLn(f, linea);
@@ -58,9 +60,9 @@ Begin
       Case clave Of 
         'direc':
                  Begin
-                   If pos(autor, cadena) > 0 Then
+                   If pos(lowercase(autor), cadena) > 0 Then
                      Begin
-                       resp := autor;
+                       resp := lowercase(autor);
                        enc := true;
                      End;
                  End;
@@ -69,23 +71,24 @@ Begin
                    coma := pos(',', actor);
                    If ( coma > 0) Then
                      Begin
-                       actor1 := Trim(Copy(cadena, 1, coma - 1));
-                       actor2 := Trim(Copy(cadena, coma + 1, Length(cadena) -
-                                 coma));
-                       If pos(actor1, cadena) Then
+                       actor1 := lowercase(Trim(Copy(actor, 1, coma - 1)));
+                       actor2 := lowercase(Trim(Copy(actor, coma + 1, Length(
+                                 actor) -
+                                 coma)));
+                       If pos(actor1, cadena) > 0 Then
                          Begin
                            resp := actor1;
                            enc := True;
                          End
-                       Else If pos(actor2, cadena) Then
+                       Else If pos(actor2, cadena) > 0 Then
                               Begin
                                 resp := actor2;
                                 enc := True;
                               End;
                      End
-                   Else If pos(actor, cadena) > 0 Then
+                   Else If pos(lowercase(actor), cadena) > 0 Then
                           Begin
-                            resp := actor;
+                            resp := lowercase(actor);
                             enc := true;
                           End;
                  End;
@@ -105,7 +108,8 @@ Procedure buscarPelicula(Var f: TextFile; gen, act, an, direc: String; Var
                          pel: String; Var enc: Boolean);
 
 Var flag: Boolean;
-  linea, titulo, autor, genero, actor, anio: string;
+  linea, titulo, autor, genero, actor, actor1, actor2, anio: string;
+  coma: Integer;
 Begin
   enc := false;
   reset(f);
@@ -118,10 +122,26 @@ Begin
           enc := True;
           pel := linea;
         End
-      Else If (Length(act) > 0) And (autor = act) Then
+      Else If (Length(act) > 0) Then
              Begin
-               enc := True;
-               pel := linea;
+               coma := pos(',', actor);
+               If ( coma > 0) Then
+                 Begin
+                   actor1 := lowercase(Trim(Copy(actor, 1, coma - 1)));
+                   actor2 := lowercase(Trim(Copy(actor, coma + 1, Length(
+                             actor) -
+                             coma)));
+                   If (actor1 = act) Or (actor2 = act) Then
+                     Begin
+                       pel := linea;
+                       enc := True;
+                     End;
+                 End
+               Else If (lowercase(actor) = act) Then
+                      Begin
+                        pel := linea;
+                        enc := true;
+                      End;
              End
       Else If (length(direc) > 0) And (direc = autor) Then
              Begin
@@ -134,55 +154,6 @@ Begin
                pel := linea;
              End
     End;
-  // writeln('aca 4');
-  // If (Not enc) And (Length(act) > 0) Then
-  //   Begin
-  //     writeln('aca 5');
-  //     // reset(f);
-  //     flag := false;
-  //     While Not (eof) And (Not flag) Do
-  //       Begin
-  //         ReadLn(f, linea);
-  //         ObtenerDatos(linea, titulo, autor, genero, actor, anio);
-  //         If (actor = act) Then
-  //           Begin
-  //             flag := true;
-  //             pel := linea;
-  //           End;
-  //       End;
-  //   End
-  // Else If (Not enc) And (Length(gen) > 0) Then
-  //        Begin
-  //          writeln('aca 5');
-  //          //  reset(f);
-  //          flag := false;
-  //          While Not (eof) And (Not flag) Do
-  //            Begin
-  //              ReadLn(f, linea);
-  //              ObtenerDatos(linea, titulo, autor, genero, actor, anio);
-  //              If (gen = genero) Then
-  //                Begin
-  //                  flag := true;
-  //                  pel := linea;
-  //                End;
-  //            End;
-  //        End
-  // Else If (Not enc) And (Length(an) > 0) Then
-  //        Begin
-  //          writeln('aca 6');
-  //          //  reset(f);
-  //          flag := false;
-  //          While Not (eof) And (Not flag) Do
-  //            Begin
-  //              ReadLn(f, linea);
-  //              ObtenerDatos(linea, titulo, autor, genero, actor, anio);
-  //              If (an = anio) Then
-  //                Begin
-  //                  flag := true;
-  //                  pel := linea;
-  //                End;
-  //            End;
-  //        End;
 
 End;
 
