@@ -4,4 +4,4 @@ Chat utilizado para recomendar peliculas, segun año, director, actor principal 
 
 ### Nota:
 
-Se encuentra un archivo con algunas peliculas reales recopiladas. Para cambiarlo debe dirigirse al archivo entidad.pas ubicado en ./chatter/Chatterbot/ y modificar la ruta.
+Se encuentra un archivo con algunas peliculas reales recopiladas. Para cambiarlo debe dirigirse al archivo entidad.pas ubicado en ./chater/Chatterbot/ y modificar la ruta.
