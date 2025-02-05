@@ -16,7 +16,7 @@ Procedure menu_principal;
 
 Var 
   f: TextFile;
-  respuesta, peli: STRING;
+  res, respuesta, peli: STRING;
   enc: Boolean;
 Begin
   iniciarArchivo(f);
@@ -27,8 +27,9 @@ Begin
   Repeat
     textcolor(white);
     WriteLn;
-    readln(respuesta);
+    readln(res);
     WriteLn;
+    respuesta := lowercase(res);
     If (Length(respuesta) > 0) Then
       Begin
         If (length(respuesta) < 4) Then

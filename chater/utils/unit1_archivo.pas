@@ -46,7 +46,7 @@ Procedure BuscarEnArchivo(Var f: TextFile; cadena,clave: String; Var resp:
                           String);
 
 Var 
-  linea, titulo, autor, genero, actor, anio: string;
+  linea, titulo, autor, genero, actor, actor1, actor2, anio: string;
   enc: Boolean;
 Begin
   enc := false;
@@ -66,11 +66,28 @@ Begin
                  End;
         'actor':
                  Begin
-                   If pos(actor, cadena) > 0 Then
+                   coma := pos(',', actor);
+                   If ( coma > 0) Then
                      Begin
-                       resp := actor;
-                       enc := true;
-                     End;
+                       actor1 := Trim(Copy(cadena, 1, coma - 1));
+                       actor2 := Trim(Copy(cadena, coma + 1, Length(cadena) -
+                                 coma));
+                       If pos(actor1, cadena) Then
+                         Begin
+                           resp := actor1;
+                           enc := True;
+                         End
+                       Else If pos(actor2, cadena) Then
+                              Begin
+                                resp := actor2;
+                                enc := True;
+                              End;
+                     End
+                   Else If pos(actor, cadena) > 0 Then
+                          Begin
+                            resp := actor;
+                            enc := true;
+                          End;
                  End;
         'anio':
                 Begin
