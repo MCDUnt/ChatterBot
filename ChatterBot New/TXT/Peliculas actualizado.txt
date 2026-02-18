@@ -1,0 +1,167 @@
+Batman Begins|Christopher Nolan|accion, aventura|Christian Bale, Michael Caine|2005|batman
+The Dark Knight|Christopher Nolan|accion, crimen, drama|Christian Bale, Heath Ledger|2008|batman
+The Dark Knight Rises|Christopher Nolan|accion, aventura, drama|Christian Bale, Tom Hardy|2012|batman
+The Terminator|James Cameron|accion, sci-fi|Arnold Schwarzenegger, Linda Hamilton|1984|terminator
+Terminator 2: Judgment Day|James Cameron|accion, sci-fi|Arnold Schwarzenegger, Linda Hamilton|1991|terminator
+Terminator 3: Rise of the Machines|Jonathan Mostow|accion, sci-fi|Arnold Schwarzenegger, Nick Stahl|2003|terminator
+Terminator Salvation|McG|accion, sci-fi|Christian Bale, Sam Worthington|2009|terminator
+Terminator Genisys|Alan Taylor|accion, sci-fi|Arnold Schwarzenegger, Emilia Clarke|2015|terminator
+Terminator: Dark Fate|Tim Miller|accion, sci-fi|Linda Hamilton, Arnold Schwarzenegger|2019|terminator
+The Lord of the Rings: The Fellowship of the Ring|Peter Jackson|aventura, fantasia|Elijah Wood, Ian McKellen|2001|lotr
+The Lord of the Rings: The Two Towers|Peter Jackson|aventura, fantasia|Elijah Wood, Viggo Mortensen|2002|lotr
+The Lord of the Rings: The Return of the King|Peter Jackson|aventura, fantasia|Elijah Wood, Viggo Mortensen|2003|lotr
+The Hobbit: An Unexpected Journey|Peter Jackson|aventura, fantasia|Martin Freeman, Ian McKellen|2012|hobbit
+The Hobbit: The Desolation of Smaug|Peter Jackson|aventura, fantasia|Martin Freeman, Benedict Cumberbatch|2013|hobbit
+The Hobbit: The Battle of the Five Armies|Peter Jackson|aventura, fantasia|Martin Freeman, Richard Armitage|2014|hobbit
+Harry Potter and the Sorcerer's Stone|Chris Columbus|fantasia, aventura|Daniel Radcliffe, Emma Watson|2001|harry_potter
+Harry Potter and the Chamber of Secrets|Chris Columbus|fantasia, aventura|Daniel Radcliffe, Emma Watson|2002|harry_potter
+Harry Potter and the Prisoner of Azkaban|Alfonso Cuarón|fantasia, aventura|Daniel Radcliffe, Emma Watson|2004|harry_potter
+Harry Potter and the Goblet of Fire|Mike Newell|fantasia, aventura|Daniel Radcliffe, Emma Watson|2005|harry_potter
+Harry Potter and the Order of the Phoenix|David Yates|fantasia, aventura|Daniel Radcliffe, Emma Watson|2007|harry_potter
+Harry Potter and the Half-Blood Prince|David Yates|fantasia, drama|Daniel Radcliffe, Emma Watson|2009|harry_potter
+Harry Potter and the Deathly Hallows – Part 1|David Yates|fantasia, aventura|Daniel Radcliffe, Emma Watson|2010|harry_potter
+Harry Potter and the Deathly Hallows – Part 2|David Yates|fantasia, aventura|Daniel Radcliffe, Emma Watson|2011|harry_potter
+Jurassic Park|Steven Spielberg|aventura, sci-fi|Sam Neill, Laura Dern|1993|jurassic
+The Lost World: Jurassic Park|Steven Spielberg|aventura, sci-fi|Jeff Goldblum, Julianne Moore|1997|jurassic
+Jurassic Park III|Joe Johnston|aventura, sci-fi|Sam Neill, William H. Macy|2001|jurassic
+Jurassic World|Colin Trevorrow|aventura, sci-fi|Chris Pratt, Bryce Dallas Howard|2015|jurassic
+Jurassic World: Fallen Kingdom|J.A. Bayona|aventura, sci-fi|Chris Pratt, Bryce Dallas Howard|2018|jurassic
+Jurassic World Dominion|Colin Trevorrow|aventura, sci-fi|Chris Pratt, Bryce Dallas Howard|2022|jurassic
+The Fast and the Furious|Rob Cohen|accion, crimen|Vin Diesel, Paul Walker|2001|autos
+2 Fast 2 Furious|John Singleton|accion, crimen|Paul Walker, Tyrese Gibson|2003|autos
+The Fast and the Furious: Tokyo Drift|Justin Lin|accion, carrera|Lucas Black, Bow Wow|2006|autos
+Fast & Furious|Justin Lin|accion, crimen|Vin Diesel, Paul Walker|2009|autos
+Fast Five|Justin Lin|accion, crimen|Vin Diesel, Dwayne Johnson|2011|autos
+Fast & Furious 6|Justin Lin|accion, crimen|Vin Diesel, Dwayne Johnson|2013|autos
+Furious 7|James Wan|accion, crimen|Vin Diesel, Paul Walker|2015|autos
+The Fate of the Furious|F. Gary Gray|accion, crimen|Vin Diesel, Dwayne Johnson|2017|autos
+F9|Justin Lin|accion, ciencia ficcion|Vin Diesel, Michelle Rodriguez|2021|autos
+Fast X|Louis Leterrier|accion, crimen|Vin Diesel, Jason Momoa|2023|autos
+John Wick|Chad Stahelski|accion, thriller|Keanu Reeves, Michael Nyqvist|2014|john_wick
+John Wick: Chapter 2|Chad Stahelski|accion, thriller|Keanu Reeves, Laurence Fishburne|2017|john_wick
+John Wick: Chapter 3 – Parabellum|Chad Stahelski|accion, thriller|Keanu Reeves, Halle Berry|2019|john_wick
+John Wick: Chapter 4|Chad Stahelski|accion, thriller|Keanu Reeves, Donnie Yen|2023|john_wick
+Joker|Todd Phillips|drama, crimen|Joaquin Phoenix, Robert De Niro|2019|joker
+Joker: Folie à Deux|Todd Phillips|drama, musical|Joaquin Phoenix, Lady Gaga|2024|joker
+Shrek|Andrew Adamson & Vicky Jenson|animacion, comedia|Mike Myers, Eddie Murphy|2001|dreamworks
+Shrek 2|Andrew Adamson, Kelly Asbury & Conrad Vernon|animacion, comedia|Mike Myers, Eddie Murphy|2004|dreamworks
+Shrek the Third|Chris Miller & Raman Hui|animacion, comedia|Mike Myers, Eddie Murphy|2007|dreamworks
+Shrek Forever After|Mike Mitchell|animacion, comedia|Mike Myers, Eddie Murphy|2010|dreamworks
+Toy Story|John Lasseter|animacion, aventura|Tom Hanks, Tim Allen|1995|pixar
+Toy Story 2|John Lasseter|animacion, aventura|Tom Hanks, Tim Allen|1999|pixar
+Toy Story 3|Lee Unkrich|animacion, aventura|Tom Hanks, Tim Allen|2010|pixar
+Toy Story 4|Josh Cooley|animacion, aventura|Tom Hanks, Tim Allen|2019|pixar
+The Lion King|Roger Allers & Rob Minkoff|animacion, aventura, drama|Matthew Broderick, Jeremy Irons|1994|lion_king
+The Lion King|Jon Favreau|animacion, aventura, drama|Donald Glover, James Earl Jones|2019|lion_king
+Spirited Away|Hayao Miyazaki|animacion estilo ghibli, fantasia|Rumi Hiiragi, Miyu Irino|2001|ghibli
+My Neighbor Totoro|Hayao Miyazaki|animacion estilo ghibli, familiar|Hitoshi Takagi, Noriko Hidaka|1988|ghibli
+Princess Mononoke|Hayao Miyazaki|animacion estilo ghibli, fantasia|Yôji Matsuda, Yuriko Ishida|1997|ghibli
+Howl's Moving Castle|Hayao Miyazaki|animacion estilo ghibli, fantasia|Chieko Baisho, Takuya Kimura|2004|ghibli
+Kiki's Delivery Service|Hayao Miyazaki|animacion estilo ghibli, familia|Minami Takayama|1989|ghibli
+The Wind Rises|Hayao Miyazaki|animacion estilo ghibli, biografia|Hideaki Anno, Miori Takimoto|2013|ghibli
+Ponyo|Hayao Miyazaki|animacion estilo ghibli, fantasia|Yuria Nara, Hiroki Doi|2008|ghibli
+The Tale of the Princess Kaguya|Isao Takahata|animacion estilo ghibli, fantasia|Aoi Miyazaki|2013|ghibli
+Iron Man|Jon Favreau|accion, sci-fi|Robert Downey Jr., Gwyneth Paltrow|2008|marvel
+The Incredible Hulk|Louis Leterrier|accion, sci-fi|Edward Norton, Liv Tyler|2008|marvel
+Iron Man 2|Jon Favreau|accion, sci-fi|Robert Downey Jr., Gwyneth Paltrow|2010|marvel
+Thor|Kenneth Branagh|accion, fantasia|Chris Hemsworth, Natalie Portman|2011|marvel
+Captain America: The First Avenger|Joe Johnston|accion, guerra|Chris Evans, Hugo Weaving|2011|marvel
+The Avengers|Joss Whedon|accion, aventura|Robert Downey Jr., Chris Evans|2012|marvel
+Iron Man 3|Shane Black|accion, sci-fi|Robert Downey Jr., Gwyneth Paltrow|2013|marvel
+Thor: The Dark World|Alan Taylor|accion, fantasia|Chris Hemsworth, Natalie Portman|2013|marvel
+Captain America: The Winter Soldier|Anthony & Joe Russo|accion, thriller|Chris Evans, Scarlett Johansson|2014|marvel
+Guardians of the Galaxy|James Gunn|accion, aventura|Chris Pratt, Zoe Saldana|2014|marvel
+Avengers: Age of Ultron|Joss Whedon|accion, sci-fi|Robert Downey Jr., Chris Evans|2015|marvel
+Ant-Man|Peyton Reed|accion, comedia|Paul Rudd, Michael Douglas|2015|marvel
+Captain America: Civil War|Anthony & Joe Russo|accion, drama|Chris Evans, Robert Downey Jr.|2016|marvel
+Doctor Strange|Scott Derrickson|accion, fantasia|Benedict Cumberbatch, Tilda Swinton|2016|marvel
+Guardians of the Galaxy Vol. 2|James Gunn|accion, aventura|Chris Pratt, Zoe Saldana|2017|marvel
+Spider-Man: Homecoming|Jon Watts|accion, aventura|Tom Holland, Robert Downey Jr.|2017|marvel
+Thor: Ragnarok|Taika Waititi|accion, comedia|Chris Hemsworth, Tom Hiddleston|2017|marvel
+Black Panther|Ryan Coogler|accion, aventura|Chadwick Boseman, Michael B. Jordan|2018|marvel
+Avengers: Infinity War|Anthony & Joe Russo|accion, sci-fi|Robert Downey Jr., Chris Evans|2018|marvel
+Ant-Man and the Wasp|Peyton Reed|accion, comedia|Paul Rudd, Evangeline Lilly|2018|marvel
+Captain Marvel|Anna Boden & Ryan Fleck|accion, sci-fi|Brie Larson, Samuel L. Jackson|2019|marvel
+Avengers: Endgame|Anthony & Joe Russo|accion, sci-fi|Robert Downey Jr., Chris Evans|2019|marvel
+Spider-Man: Far From Home|Jon Watts|accion, aventura|Tom Holland, Samuel L. Jackson|2019|marvel
+Star Wars: Episode IV – A New Hope|George Lucas|accion, aventura, fantasia|Mark Hamill, Harrison Ford|1977|star_wars
+Star Wars: Episode V – The Empire Strikes Back|Irvin Kershner|accion, aventura, fantasia|Mark Hamill, Harrison Ford|1980|star_wars
+Star Wars: Episode VI – Return of the Jedi|Richard Marquand|accion, aventura, fantasia|Mark Hamill, Harrison Ford|1983|star_wars
+Star Wars: Episode I – The Phantom Menace|George Lucas|accion, aventura, fantasia|Liam Neeson, Ewan McGregor|1999|star_wars
+Star Wars: Episode II – Attack of the Clones|George Lucas|accion, aventura, fantasia|Ewan McGregor, Hayden Christensen|2002|star_wars
+Star Wars: Episode III – Revenge of the Sith|George Lucas|accion, aventura, fantasia|Ewan McGregor, Hayden Christensen|2005|star_wars
+Star Wars: Episode VII – The Force Awakens|J.J. Abrams|accion, aventura, fantasia|Daisy Ridley, John Boyega|2015|star_wars
+Star Wars: Episode VIII – The Last Jedi|Rian Johnson|accion, aventura, fantasia|Daisy Ridley, Mark Hamill|2017|star_wars
+Star Wars: Episode IX – The Rise of Skywalker|J.J. Abrams|accion, aventura, fantasia|Daisy Ridley, Adam Driver|2019|star_wars
+Mission: Impossible|Brian De Palma|accion, espionaje|Tom Cruise, Jon Voight|1996|mission_impossible
+Mission: Impossible 2|John Woo|accion, espionaje|Tom Cruise, Dougray Scott|2000|mission_impossible
+Mission: Impossible III|J.J. Abrams|accion, espionaje|Tom Cruise, Philip Seymour Hoffman|2006|mission_impossible
+Mission: Impossible – Ghost Protocol|Brad Bird|accion, espionaje|Tom Cruise, Jeremy Renner|2011|mission_impossible
+Mission: Impossible – Rogue Nation|Christopher McQuarrie|accion, espionaje|Tom Cruise, Rebecca Ferguson|2015|mission_impossible
+Mission: Impossible – Fallout|Christopher McQuarrie|accion, espionaje|Tom Cruise, Henry Cavill|2018|mission_impossible
+Mission: Impossible – Dead Reckoning Part One|Christopher McQuarrie|accion, espionaje|Tom Cruise, Hayley Atwell|2023|mission_impossible
+Alien|Ridley Scott|horror, sci-fi|Sigourney Weaver, Tom Skerritt|1979|alien
+Aliens|James Cameron|accion, sci-fi|Sigourney Weaver, Michael Biehn|1986|alien
+Alien 3|David Fincher|horror, sci-fi|Sigourney Weaver|1992|alien
+Alien: Resurrection|Jean-Pierre Jeunet|horror, sci-fi|Sigourney Weaver, Winona Ryder|1997|alien
+Prometheus|Ridley Scott|sci-fi, drama|Noomi Rapace, Michael Fassbender|2012|alien
+Alien: Covenant|Ridley Scott|sci-fi, horror|Katherine Waterston, Michael Fassbender|2017|alien
+Scream|Wes Craven|horror, misterio|Neve Campbell, Courteney Cox|1996|scream
+Scream 2|Wes Craven|horror, misterio|Neve Campbell, Courteney Cox|1997|scream
+Scream 3|Wes Craven|horror, misterio|Neve Campbell, Courteney Cox|2000|scream
+Scream 4|Wes Craven|horror, misterio|Neve Campbell, Courteney Cox|2011|scream
+Scream|Matt Bettinelli-Olpin & Tyler Gillett|horror, misterio|Neve Campbell, Courteney Cox|2022|scream
+Scream VI|Matt Bettinelli-Olpin & Tyler Gillett|horror, misterio|Melissa Barrera, Jenna Ortega|2023|scream
+Saw|James Wan|horror, misterio|Tobin Bell, Leigh Whannell|2004|saw
+Saw II|Darren Lynn Bousman|horror, misterio|Donnie Wahlberg, Tobin Bell|2005|saw
+Saw III|Darren Lynn Bousman|horror, misterio|Tobin Bell, Shawnee Smith|2006|saw
+Saw IV|Darren Lynn Bousman|horror, misterio|Tobin Bell, Costas Mandylor|2007|saw
+Saw V|David Hackl|horror, misterio|Scott Patterson, Costas Mandylor|2008|saw
+Saw VI|Kevin Greutert|horror, misterio|Tobin Bell, Costas Mandylor|2009|saw
+Saw 3D|Kevin Greutert|horror, misterio|Tobin Bell, Costas Mandylor|2010|saw
+Jigsaw|The Spierig Brothers|horror, misterio|Matt Passmore, Callum Keith Rennie|2017|saw
+Spiral|Darren Lynn Bousman|horror, misterio|Chris Rock, Samuel L. Jackson|2021|saw
+Saw X|Kevin Greutert|horror, misterio|Tobin Bell|2023|saw
+The Conjuring|James Wan|horror, sobrenatural|Vera Farmiga, Patrick Wilson|2013|conjuring_universe
+Annabelle|John R. Leonetti|horror, sobrenatural|Annabelle doll|2014|conjuring_universe
+The Conjuring 2|James Wan|horror, sobrenatural|Vera Farmiga, Patrick Wilson|2016|conjuring_universe
+Annabelle: Creation|David F. Sandberg|horror, sobrenatural|Anthony LaPaglia, Miranda Otto|2017|conjuring_universe
+The Nun|Corin Hardy|horror, sobrenatural|Taissa Farmiga, Demian Bichir|2018|conjuring_universe
+The Curse of La Llorona|Michael Chaves|horror, sobrenatural|Linda Cardellini|2019|conjuring_universe
+Annabelle Comes Home|Gary Dauberman|horror, sobrenatural|Mckenna Grace|2019|conjuring_universe
+The Conjuring: The Devil Made Me Do It|Michael Chaves|horror, sobrenatural|Vera Farmiga, Patrick Wilson|2021|conjuring_universe
+The Nun II|Michael Chaves|horror, sobrenatural|Taissa Farmiga|2023|conjuring_universe
+How to Train Your Dragon|Dean DeBlois & Chris Sanders|animacion, aventura|Jay Baruchel, Gerard Butler|2010|dreamworks
+How to Train Your Dragon 2|Dean DeBlois|animacion, aventura|Jay Baruchel, Gerard Butler|2014|dreamworks
+How to Train Your Dragon: The Hidden World|Dean DeBlois|animacion, aventura|Jay Baruchel, Gerard Butler|2019|dreamworks
+Kung Fu Panda|John Stevenson & Mark Osborne|animacion, comedia|Jack Black, Dustin Hoffman|2008|dreamworks
+Kung Fu Panda 2|Jennifer Yuh Nelson|animacion, accion|Jack Black, Angelina Jolie|2011|dreamworks
+Kung Fu Panda 3|Jennifer Yuh Nelson & Alessandro Carloni|animacion, comedia|Jack Black, Bryan Cranston|2016|dreamworks
+Kung Fu Panda 4|Mike Mitchell|animacion, comedia|Jack Black|2024|dreamworks
+Finding Nemo|Andrew Stanton|animacion, aventura|Albert Brooks, Ellen DeGeneres|2003|pixar
+Finding Dory|Andrew Stanton|animacion, aventura|Ellen DeGeneres, Albert Brooks|2016|pixar
+The Incredibles|Brad Bird|animacion, accion|Craig T. Nelson, Holly Hunter|2004|pixar
+Incredibles 2|Brad Bird|animacion, accion|Craig T. Nelson, Holly Hunter|2018|pixar
+Coco|Lee Unkrich & Adrian Molina|animacion, aventura|Anthony Gonzalez, Gael García Bernal|2017|pixar
+Inside Out|Pete Docter & Ronnie del Carmen|animacion, drama|Amy Poehler, Phyllis Smith|2015|pixar
+Monsters, Inc.|Pete Docter & David Silverman|animacion, comedia|John Goodman, Billy Crystal|2001|pixar
+Up|Pete Docter & Bob Peterson|animacion, aventura|Ed Asner, Jordan Nagai|2009|pixar
+Your Name|Makoto Shinkai|anime, romance|Ryunosuke Kamiki, Mone Kamishiraishi|2016|anime
+Demon Slayer: Mugen Train|Haruo Sotozaki|anime, accion|Natsuki Hanae, Akari Kito|2020|anime
+Akira|Katsuhiro Otomo|anime, sci-fi|Mitsuo Iwata, Nozomu Sasaki|1988|anime
+A Silent Voice|Naoko Yamada|anime, drama|Miyu Irino, Saori Hayami|2016|anime
+Weathering With You|Makoto Shinkai|anime, romance|Kotaro Daigo, Nana Mori|2019|anime
+Parasite|Bong Joon-ho|drama, thriller|Song Kang-ho, Lee Sun-kyun|2019|coreano
+Oldboy|Park Chan-wook|drama, thriller|Choi Min-sik, Yoo Ji-tae|2003|coreano
+Train to Busan|Yeon Sang-ho|horror, accion|Gong Yoo, Ma Dong-seok|2016|coreano
+Memories of Murder|Bong Joon-ho|drama, crimen|Song Kang-ho|2003|coreano
+The Handmaiden|Park Chan-wook|drama, thriller|Kim Min-hee, Ha Jung-woo|2016|coreano
+Se7en|David Fincher|thriller, crimen|Brad Pitt, Morgan Freeman|1995|thriller_clasico
+The Silence of the Lambs|Jonathan Demme|thriller, crimen|Jodie Foster, Anthony Hopkins|1991|thriller_clasico
+Memento|Christopher Nolan|thriller, misterio|Guy Pearce, Carrie-Anne Moss|2000|thriller_clasico
+Shutter Island|Martin Scorsese|thriller, misterio|Leonardo DiCaprio, Mark Ruffalo|2010|thriller_clasico
+Psycho|Alfred Hitchcock|thriller, horror|Anthony Perkins, Janet Leigh|1960|thriller_clasico
+School of Rock|Richard Linklater|comedia, musical|Jack Black, Joan Cusack|2003|musical
+La La Land|Damien Chazelle|musical, romance|Ryan Gosling, Emma Stone|2016|musical
+Grease|Randal Kleiser|musical, romance|John Travolta, Olivia Newton-John|1978|musical
+The Greatest Showman|Michael Gracey|musical, drama|Hugh Jackman, Zac Efron|2017|musical
